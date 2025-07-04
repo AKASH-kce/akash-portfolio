@@ -1,0 +1,51 @@
+/* Add to global styles.css */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+  font-size: 1rem;
+}
+
+.error-message {
+  color: #ff2a6d;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.success-message {
+  color: #00c9ff;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background: linear-gradient(45deg, #8a2be2, #ff2a6d);
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.custom-file-upload:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(229, 46, 113, 0.3);
+}
+
+#file-upload {
+  display: none;
+}
+
+.file-name {
+  margin-top: 0.5rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+}
